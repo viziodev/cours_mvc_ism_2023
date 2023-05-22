@@ -1,0 +1,19 @@
+{
+    "name": "mac/demon",
+    "description": "Gestion Atelier",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Models\\": "src/models/",
+            "App\\Controllers\\": "src/controllers/",
+            "App\\Core\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "viziodev",
+            "email": "viziodev03@gmail.com"
+        }
+    ],
+    "require": {}
+}
